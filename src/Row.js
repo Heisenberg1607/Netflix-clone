@@ -18,7 +18,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
       return request;
     }
     fetchData();
-  }, []);
+  }, [fetchUrl]);
   const opts = {
     height: "500",
     width: "100%",
